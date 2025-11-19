@@ -8,7 +8,9 @@ The implemented solutions were a part of the Deep Neural Network course at the U
 
 Projects include methods, proposed in the latest publications, with a potential for improving existing models:
 
-## 1. **Proximal Backpropagation ([ProxyProp](https://arxiv.org/abs/1706.04638))** - modification for the backpropagation algorithm by taking implicit instead of explicit gradient steps to update the network parameters during neural network training.
+## 1. **Proximal Backpropagation ([ProxyProp](https://arxiv.org/abs/1706.04638))**
+
+Modification for the backpropagation algorithm by taking implicit instead of explicit gradient steps to update the network parameters during neural network training.
 
 The update of weights is defined as:
 
@@ -18,7 +20,9 @@ W^{(l)} = \text{arg min}_{W} \frac{1}{2} || W \cdot g^{(l-1)} + b^{(l)} - f^{(l)
 %\end{equation}
 $$
 
-## 2. **Adversarial Training ([AdvProp](https://arxiv.org/abs/1911.09665) and [SparseTopK](https://openreview.net/forum?id=QzcZb3fWmW))** - improvement of robustness for image classification models by training on batches containing both clean and adversarially perturbed examples. This forces the model to learn features that are invariant to small, malicious input changes, leading to better generalization and resilience against attacks.
+## 2. **Adversarial Training ([AdvProp](https://arxiv.org/abs/1911.09665) and [SparseTopK](https://openreview.net/forum?id=QzcZb3fWmW))**
+
+Improvement of robustness for image classification models by training on batches containing both clean and adversarially perturbed examples. This forces the model to learn features that are invariant to small, malicious input changes, leading to better generalization and resilience against attacks.
 
 <div align="center">
   <figure>
@@ -26,7 +30,9 @@ $$
   </figure>
 </div>
 
-## 3. **Differential Attention ([Diff Attention](https://arxiv.org/abs/2410.05258))** - enhancement for transformer attention by allowing the model to amplify attention to the relevant context while canceling noise by calculating attention scores as the difference between two separate softmax attention maps.
+## 3. **Differential Attention ([Diff Attention](https://arxiv.org/abs/2410.05258))**
+
+Enhancement for transformer attention by allowing the model to amplify attention to the relevant context while canceling noise by calculating attention scores as the difference between two separate softmax attention maps.
 
 Differential Attention works similarly to normal Attention, but with a few differences:
 * Differential Attention partitions $Q$ and $K$ matrices into chunks: $Q_1$, $Q_2$, $K_1$, $K_2$. Each of them have a shape `(b, l, n_h, head / 2)`
@@ -35,7 +41,9 @@ Differential Attention works similarly to normal Attention, but with a few diffe
 * $\lambda$ in the equation above is calculated as $\lambda = \exp(\lambda_{K_1} * \lambda_{Q_1}) - \exp(\lambda_{K_2} * \lambda_{Q_2}) + \lambda_{\text{init}}$, where $\lambda_{K_1}, \lambda_{Q_1}, \lambda_{K_2}, \lambda_{Q_2}$ are all parameters of shape `head / 2`, $*$ denotes scalar multiplication of vectors and $\lambda_{\text{init}} = 0.8$
 * Additionally, normalization is applied to per-head tokens $O' = \text{RMSNorm}(O') \cdot (1-\lambda_{init})$
 
-## 4. **Proximal Policy Optimization ([PPO](https://arxiv.org/abs/1707.06347)) and Random Network Distillation ([RND](https://arxiv.org/abs/1810.12894))** - improving exploration in reinforcement learning, enabling agents to learn more effectively in sparse reward environments.
+## 4. **Proximal Policy Optimization ([PPO](https://arxiv.org/abs/1707.06347)) and Random Network Distillation ([RND](https://arxiv.org/abs/1810.12894))**
+
+Improving exploration in reinforcement learning, enabling agents to learn more effectively in sparse reward environments.
 
 <div align="center">
   <figure>
