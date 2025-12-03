@@ -2,6 +2,12 @@
 
 *by Younginn Park*
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-003366?style=for-the-badge&logo=plotly&logoColor=white)
+![ClearML](https://img.shields.io/badge/ClearML-00BFA6?style=for-the-badge&logo=mlflow&logoColor=white)
+
 Repository contains solutions for selected Deep Neural Network architecture optimization tasks using **PyTorch** and fine-tuned for running in the Google Colab environment.
 
 The implemented solutions were a part of the Deep Neural Network course at the University of Warsaw 2024/25, where they achieved a **top 10% class ranking** for performance.
