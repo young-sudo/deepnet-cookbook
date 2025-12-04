@@ -33,7 +33,7 @@ Improvement of robustness for image classification models by training on batches
 
 <div align="center">
   <figure>
-    <img src="img/cats.png" alt="cats" width="500"/>
+    <img src="https://raw.githubusercontent.com/young-sudo/deepnet-cookbook/main/img/cats.png" alt="cats" width="500"/>
   </figure>
 </div>
 
@@ -54,7 +54,7 @@ Improving exploration in reinforcement learning, enabling agents to learn more e
 
 <div align="center">
   <figure>
-    <img src="img/nethack.png" alt="nethack" width="500"/>
+    <img src="https://raw.githubusercontent.com/young-sudo/deepnet-cookbook/main/img/nethack.png" alt="nethack" width="500"/>
     <br>
     <figcaption style="text-align:center;"><em>Roguelike game NetHack has been used to train the Agent</em></figcaption>
   </figure>
