@@ -2,14 +2,12 @@
 
 *by Younginn Park*
 
-<div>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/Matplotlib-003366?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib">
-  <img src="https://img.shields.io/badge/ClearML-00BFA6?style=for-the-badge&logo=mlflow&logoColor=white" alt="ClearML">
-</div>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-003366?style=for-the-badge&logo=plotly&logoColor=white)
+![ClearML](https://img.shields.io/badge/ClearML-00BFA6?style=for-the-badge&logo=mlflow&logoColor=white) 
 
 Repository contains solutions for selected Deep Neural Network architecture optimization tasks using **PyTorch** and fine-tuned for running in the Google Colab environment.
 
